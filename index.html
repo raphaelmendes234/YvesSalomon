@@ -10,9 +10,17 @@
   <meta name="description" content="Yves Salomon Site Officiel. Créez votre compte simplement, afin de bénéficier de nos avantages clients.">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-
 </head>
+
+<script>
+  function selectOnlyThis(id) {
+    document.getElementById("checkbox-madame").checked = false;
+    document.getElementById("checkbox-monsieur").checked = false;
+    document.getElementById("checkbox-autre").checked = false;
+    document.getElementById(id).checked = true;
+  }
+</script>
+
 <body>
   <div class="container">
   <header>
@@ -34,15 +42,15 @@
     <form>
       <div class="form-field checkbox-display">
         <div class="checkbox-label">
-          <input type="checkbox" id="checkbox-madame">
+          <input type="checkbox" id="checkbox-madame" onclick="selectOnlyThis(this.id)">
           <label class="clickable" for="checkbox-madame">MADAME</label>
         </div>
         <div class="checkbox-label">
-          <input type="checkbox" id="checkbox-monsieur">
+          <input type="checkbox" id="checkbox-monsieur" onclick="selectOnlyThis(this.id)">
           <label class="clickable" for="checkbox-monsieur">MONSIEUR</label>
         </div>
         <div class="checkbox-label">
-          <input type="checkbox" id="checkbox-autre">
+          <input type="checkbox" id="checkbox-autre" onclick="selectOnlyThis(this.id)">
           <label class="clickable" for="checkbox-autre">AUTRE</label>
         </div>
       </div>
@@ -120,7 +128,6 @@
     </form>
   </main>
 </div>
-
   <script src="main.js"></script>
 </body>
 </html>
