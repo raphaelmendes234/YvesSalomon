@@ -5,6 +5,7 @@
   background-color: #F5F5F5;
   text-decoration: none;
   -webkit-border-radius: none;
+  border-radius: 0;
 }
 
 body {
