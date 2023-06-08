@@ -1,0 +1,22 @@
+{
+    "short_name": "Yves Salomon",
+    "name": "Yves Salomon Formulaire",
+    "icons": [
+        {
+            "src": "maskable_icon.png",
+            "sizes": "800x800",
+            "type": "image/png",
+            "purpose": "any maskable"
+          }
+        ],
+
+        "id": "/?source=pwa",
+        "start_url": "index.html",
+        "background_color": "#F5F5F5",
+        "display_override": ["window-control-overlay", "minimal-ui"],
+        "display": "fullscreen",
+        "scope": "index.html",
+        "theme_color": "#F5F5F5",
+        "description": "Formulaire de création de compte pour Yves Salomon"
+
+        }

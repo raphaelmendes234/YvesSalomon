@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formulaire Yves Salomon Création de compte Ipad">
+  <meta name="theme-color" content="#F5F5F5">
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <title>Formulaire</title>
+</head>
+<body>
+  <div class="container">
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <div class="language-switch">
+      <div id="frButton" class="active">
+        <a href="#">FR</a>
+      </div>
+      <div id="enButton">
+        <a href="#">EN</a>
+      </div>
+      <div class="language-underline"></div>
+    </div>
+  </header>
+
+  <main>
+    <form>
+      <div class="form-field communication-options">
+        <div class="comm-field">
+          <input type="checkbox" id="civilityCheckboxMiss">
+          <label for="civilityCheckboxMiss">MADAME</label>
+        </div>
+        <div class="comm-field">
+          <input type="checkbox" id="civilityCheckboxMr">
+          <label for="civilityCheckboxMr">MONSIEUR</label>
+        </div>
+        <div class="comm-field">
+          <input type="checkbox" id="civilityCheckboxOther">
+          <label for="civilityCheckboxOther">AUTRE</label>
+        </div>
+      </div>
+      
+      <div class="form-field to-hide short">
+        <input type="text" id="fieldRequired1"  required>
+        <label for="fieldRequired1">NOM</label>
+      </div>
+      <div class="form-field to-hide short">
+        <input type="text" id="fieldRequired2"  required>
+        <label for="fieldRequired2">PRENOM</label>
+      </div>
+      <div class="form-field to-hide ">
+        <input type="text" id="fieldRequired3" required>
+        <label for="fieldRequired3">EMAIL</label>
+      </div>
+      <div class="form-field to-hide ">
+        <input type="text" id="field1">
+        <label for="field1">TEL</label>
+      </div>
+      <div class="form-field short">
+        <select name="countries" id="menu" required>
+          <option value="">PAYS/REGION</option>
+          <option value="FRANCE">FRANCE</option>
+          <option value="ESPAGNE">ESPAGNE</option>
+          <option value="ENGLAND">ENGLAND</option>
+          <option value="PORTUGAL">PORTUGAL</option>
+          <option value="ITALY">ITALY</option>
+        </select name="countries">
+      </div>
+      <div class="form-field to-hide ">
+        <input type="text" id="fieldAdress">
+        <label for="fieldAdress">ADRESSE</label>
+      </div>
+      <div class="form-field to-hide ">
+        <input type="text" id="fieldComplement">
+        <label for="fieldComplement">COMPLEMENT D'ADRESSE</label>
+      </div>
+      <div class="form-field to-hide  short">
+        <input type="text" id="fieldPostcode">
+        <label for="fieldPostcode">CODE POSTAL</label>
+      </div>
+      <div class="form-field to-hide  short">
+        <input type="text" id="fieldCity">
+        <label for="fieldCity">VILLE</label>
+      </div>
+      <div class="form-field to-hide ">
+        <input type="text" id="fieldbirthdate">
+        <label for="fieldbirthdate">DATE DE NAISSANCE</label>
+      </div>
+
+      <div class="communication">
+        <p>J’accepte de recevoir des communications sur les produits d’Yves Salomon par les modes sélectionnés ci-dessous :</p>
+        <div class="communication-options">
+          <div class="comm-field">
+            <input type="checkbox" id="emailCheckbox" checked>
+          <label for="emailCheckbox">EMAIL</label>
+          </div>
+          <div class="comm-field">
+            <input type="checkbox" id="phoneCheckbox">
+          <label for="phoneCheckbox">TELEPHONE</label>
+          </div>
+
+        </div>
+        <div class="data-protection">
+          <div class="comm-field">
+            <input type="checkbox" id="dataProtectionCheckbox" required>
+            <label for="dataProtectionCheckbox" >J’ai pris connaissance et j’accepte la politique de protection des données.</label>
+          </div>
+        </div>
+      </div>
+
+      <button class="button">
+          CREER MON COMPTE
+      </button>
+    </form>
+  </main>
+</div>
+
+  <script src="main.js"></script>
+</body>
+</html>
