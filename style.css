@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #F5F5F5;
+  background-color: #f5f2f2;
   text-decoration: none;
   -webkit-border-radius: none;
   appearance: none;
@@ -61,10 +61,6 @@ a {
   background-size: cover;
 }
 
-.thanks > h1, .thanks > p {
-  color: #F5F5F5;
-  background-color: #ffffff00;
-}
 
 
 .logo img {
@@ -198,7 +194,7 @@ select {
 
 .form-field input:focus-visible + label {
   top: -10px;
-  background-color: #F5F5F5;
+  background-color: #f5f2f2;
   padding: 5px;
   font-size: 12px;
 }
