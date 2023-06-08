@@ -11,7 +11,7 @@ body {
   font-family: Pragmatica, sans-serif;
   font-weight: bold;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .container {
@@ -36,7 +36,7 @@ a {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   background-image: url(lookbook.jpg);
   background-repeat: no-repeat;
@@ -117,7 +117,6 @@ input {
   display: flex;
   margin-top: 16px;
   align-items: center;
-  justify-content: center;
 }
 
 .data-protection > .checkbox-label {
@@ -134,7 +133,6 @@ input {
   top: 0;
   left: 8px;
   font-size: 14px;
-
 }
 
 label {
@@ -144,6 +142,10 @@ label {
   left: 16px;
   color: #1C1B1B;
   pointer-events: none;
+}
+
+.clickable {
+  pointer-events: all;
 }
 
 select {
@@ -165,11 +167,6 @@ select {
   border: none;
   text-align: center;
   cursor: pointer;
-}
-
-.button > a {
-  color: #F5F5F5;
-  background-color: #1C1B1B;
 }
 
 .form-field input:focus-visible + input{
