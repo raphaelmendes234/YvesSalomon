@@ -28,7 +28,7 @@ body {
   font-family: Pragmatica, sans-serif;
   font-weight: bold;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .container {
