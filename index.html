@@ -3,17 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Formulaire Yves Salomon Création de compte Ipad">
   <meta name="theme-color" content="#F5F5F5">
   <link rel="stylesheet" href="style.css">
+  <title>YS | Nouveau Client</title>
   <link rel="manifest" href="manifest.json">
-  <title>Formulaire</title>
+  <meta name="description" content="Yves Salomon Site Officiel. Créez votre compte simplement, afin de bénéficier de nos avantages clients.">
+  <link rel="apple-touch-icon" href="/Users/ben/Documents/_IMT_NORD_EUROPE/M1/STAGE/E-LIXIR/yves_salomon_form_2/apple-touch-icon.png">
+
+
 </head>
 <body>
   <div class="container">
   <header>
     <div class="logo">
-      <img src="logo.png" alt="Logo">
+      <img src="logo.png" width="600" alt="Yves Salomon">
     </div>
     <div class="language-switch">
       <div id="frButton" class="active">
@@ -28,36 +31,36 @@
 
   <main>
     <form>
-      <div class="form-field communication-options">
+      <div class="form-field communication communication-options">
         <div class="comm-field">
-          <input type="checkbox" id="civilityCheckboxMiss">
-          <label for="civilityCheckboxMiss">MADAME</label>
+          <input type="checkbox" id="checkbox-madame">
+          <label for="checkbox-madame">MADAME</label>
         </div>
         <div class="comm-field">
-          <input type="checkbox" id="civilityCheckboxMr">
-          <label for="civilityCheckboxMr">MONSIEUR</label>
+          <input type="checkbox" id="checkbox-monsieur">
+          <label for="checkbox-monsieur">MONSIEUR</label>
         </div>
         <div class="comm-field">
-          <input type="checkbox" id="civilityCheckboxOther">
-          <label for="civilityCheckboxOther">AUTRE</label>
+          <input type="checkbox" id="checkbox-autre">
+          <label for="checkbox-autre">AUTRE</label>
         </div>
       </div>
       
       <div class="form-field to-hide short">
-        <input type="text" id="fieldRequired1"  required>
-        <label for="fieldRequired1">NOM</label>
+        <input type="text" id="fieldRequired-nom"  required>
+        <label for="fieldRequired-nom">NOM</label>
       </div>
       <div class="form-field to-hide short">
-        <input type="text" id="fieldRequired2"  required>
-        <label for="fieldRequired2">PRENOM</label>
+        <input type="text" id="fieldRequired-prenom"  required>
+        <label for="fieldRequired-prenom">PRENOM</label>
       </div>
       <div class="form-field to-hide ">
-        <input type="text" id="fieldRequired3" required>
-        <label for="fieldRequired3">EMAIL</label>
+        <input type="text" id="fieldRequired-email" required>
+        <label for="fieldRequired-email">EMAIL</label>
       </div>
       <div class="form-field to-hide ">
-        <input type="text" id="field1">
-        <label for="field1">TEL</label>
+        <input type="text" id="field-tel">
+        <label for="field-tel">TEL</label>
       </div>
       <div class="form-field short">
         <select name="countries" id="menu" required>
@@ -67,27 +70,27 @@
           <option value="ENGLAND">ENGLAND</option>
           <option value="PORTUGAL">PORTUGAL</option>
           <option value="ITALY">ITALY</option>
-        </select name="countries">
+        </select>
       </div>
       <div class="form-field to-hide ">
-        <input type="text" id="fieldAdress">
-        <label for="fieldAdress">ADRESSE</label>
+        <input type="text" id="field-adresse">
+        <label for="field-adresse">ADRESSE</label>
       </div>
       <div class="form-field to-hide ">
-        <input type="text" id="fieldComplement">
-        <label for="fieldComplement">COMPLEMENT D'ADRESSE</label>
+        <input type="text" id="field-complement-adresse">
+        <label for="field-complement-adresse">COMPLEMENT D'ADRESSE</label>
       </div>
       <div class="form-field to-hide  short">
-        <input type="text" id="fieldPostcode">
-        <label for="fieldPostcode">CODE POSTAL</label>
+        <input type="text" id="field-code-postal">
+        <label for="field-code-postal">CODE POSTAL</label>
       </div>
       <div class="form-field to-hide  short">
-        <input type="text" id="fieldCity">
-        <label for="fieldCity">VILLE</label>
+        <input type="text" id="field-ville">
+        <label for="field-ville">VILLE</label>
       </div>
       <div class="form-field to-hide ">
-        <input type="text" id="fieldbirthdate">
-        <label for="fieldbirthdate">DATE DE NAISSANCE</label>
+        <input type="text" id="field-naissance">
+        <label for="field-naissance">DATE DE NAISSANCE</label>
       </div>
 
       <div class="communication">
