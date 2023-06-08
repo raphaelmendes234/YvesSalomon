@@ -8,7 +8,7 @@
   <title>YS | Nouveau Client</title>
   <link rel="manifest" href="manifest.json">
   <meta name="description" content="Yves Salomon Site Officiel. Créez votre compte simplement, afin de bénéficier de nos avantages clients.">
-  <link rel="apple-touch-icon" href="/Users/ben/Documents/_IMT_NORD_EUROPE/M1/STAGE/E-LIXIR/yves_salomon_form_2/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 
 </head>
@@ -31,16 +31,16 @@
 
   <main>
     <form>
-      <div class="form-field communication communication-options">
-        <div class="comm-field">
+      <div class="form-field checkbox-display">
+        <div class="checkbox-label">
           <input type="checkbox" id="checkbox-madame">
           <label for="checkbox-madame">MADAME</label>
         </div>
-        <div class="comm-field">
+        <div class="checkbox-label">
           <input type="checkbox" id="checkbox-monsieur">
           <label for="checkbox-monsieur">MONSIEUR</label>
         </div>
-        <div class="comm-field">
+        <div class="checkbox-label">
           <input type="checkbox" id="checkbox-autre">
           <label for="checkbox-autre">AUTRE</label>
         </div>
@@ -95,19 +95,18 @@
 
       <div class="communication">
         <p>J’accepte de recevoir des communications sur les produits d’Yves Salomon par les modes sélectionnés ci-dessous :</p>
-        <div class="communication-options">
-          <div class="comm-field">
+        <div class="checkbox-display">
+          <div class="checkbox-label">
             <input type="checkbox" id="emailCheckbox" checked>
-          <label for="emailCheckbox">EMAIL</label>
+            <label for="emailCheckbox">EMAIL</label>
           </div>
-          <div class="comm-field">
+          <div class="checkbox-label">
             <input type="checkbox" id="phoneCheckbox">
-          <label for="phoneCheckbox">TELEPHONE</label>
+            <label for="phoneCheckbox">TELEPHONE</label>
           </div>
-
         </div>
         <div class="data-protection">
-          <div class="comm-field">
+          <div class="checkbox-label">
             <input type="checkbox" id="dataProtectionCheckbox" required>
             <label for="dataProtectionCheckbox" >J’ai pris connaissance et j’accepte la politique de protection des données.</label>
           </div>
