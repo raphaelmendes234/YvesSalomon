@@ -5,7 +5,23 @@
   background-color: #F5F5F5;
   text-decoration: none;
   -webkit-border-radius: none;
+  appearance: none;
   border-radius: 0;
+}
+
+input[type=checkbox]:checked:before {
+  content: "✓";
+  left: 4px;
+  top: 0px;
+  position: absolute;
+}
+
+/* bogue à redéfinir juste pour cette checkbox */
+#dataProtectionCheckbox:checked:before {
+  content: "✓";
+  left: 4px;
+  top: 7px;
+  position: absolute;
 }
 
 body {
@@ -106,6 +122,10 @@ input {
 
 .communication > p {
   font-size: 14px;
+}
+
+.checkbox {
+  block-size: 16px;
 }
 
 .checkbox-display {
