@@ -91,7 +91,7 @@ input {
   width: 100%;
   padding: 10px;
   border: 1px solid #D0CECE;
-  /* border-radius: 4px; */
+  font-size: 16px;
 }
 
 .short {
