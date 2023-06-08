@@ -4,6 +4,7 @@
   padding: 0;
   background-color: #F5F5F5;
   text-decoration: none;
+  -webkit-border-radius: none;
 }
 
 body {
