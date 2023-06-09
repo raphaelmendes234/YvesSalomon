@@ -61,11 +61,13 @@ a {
   background-size: cover;
 }
 
-
+.logo {
+  margin: 16px 0;
+}
 
 .logo img {
-  height: 150px;
-  width: auto;
+  width: 266px;
+  height: 66px;
 }
 
 .language-switch  { 
@@ -106,6 +108,11 @@ input {
   padding: 10px;
   border: 1px solid #D0CECE;
   font-size: 16px;
+}
+
+input::placeholder {
+  font-size: 12px;
+  padding-left: 8px;
 }
 
 .short {
@@ -179,7 +186,7 @@ select {
 .button {
   display: block;
   width:100%;
-  padding: 15px;
+  padding: 18px;
   background-color: #1C1B1B;
   color: white;
   border: none;
