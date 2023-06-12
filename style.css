@@ -245,3 +245,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     width: -webkit-fill-available;
   }
 }
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .ipad-portrait {
+    
+  }
+}
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+  .ipad-landscape {
+
+  }
+}
