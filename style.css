@@ -17,7 +17,7 @@ input[type=checkbox]:checked:before {
   position: absolute;
 }
 
-/* bogue à redéfinir juste pour cette checkbox */
+/* bogue qu'il a fallu redéfinir juste pour cette checkbox */
 #dataProtectionCheckbox:checked:before {
   content: "✓";
   left: 4px;
