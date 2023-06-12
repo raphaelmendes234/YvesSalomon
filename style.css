@@ -228,6 +228,7 @@ select {
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
+  appearance: none;
   background: transparent;
   bottom: 0;
   color: transparent;
