@@ -111,6 +111,7 @@ input {
   padding: 10px;
   border: 1px solid #D0CECE;
   font-size: 16px;
+  outline: none;
 }
 
 input::placeholder {
@@ -215,10 +216,15 @@ select {
   font-size: 16px;
 }
 
-.form-field input:focus-visible + input{
+input:focus-visible {
+  outline: 1px solid;
+}
+
+/* .form-field input:focus-visible + input{
   border: 1px solid #D0CECE;
   border-radius: 0px;
-}
+  
+} */
 
 /* .form-field input:focus-visible + label {
   top: -10px;
