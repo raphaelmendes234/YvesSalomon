@@ -17,7 +17,7 @@ input[type=checkbox]:checked:before {
   position: absolute;
 }
 
-/* bogue à redéfinir juste pour cette checkbox */
+/* bogue qu'il a fallu redéfinir juste pour cette checkbox */
 #dataProtectionCheckbox:checked:before {
   content: "✓";
   left: 4px;
@@ -284,7 +284,5 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
-  .ipad-landscape {
-
-  }
+  
 }
