@@ -36,9 +36,11 @@ formsArray.map(function(element){
 
     input.addEventListener("input", function(){
         if (input.value.length > 0) {
-            label.style.display = "none";
+            // label.style.display = "none";
+            label.classList.add("classlabelup");
         } else {
-            label.style.display = "block";
+            // label.style.display = "block";
+            label.classList.remove("classlabelup");
         }
     });
 });

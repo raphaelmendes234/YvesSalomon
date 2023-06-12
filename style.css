@@ -220,10 +220,17 @@ select {
   border-radius: 0px;
 }
 
-.form-field input:focus-visible + label {
+/* .form-field input:focus-visible + label {
   top: -10px;
   background-color: #f5f2f2;
   padding: 5px;
+  font-size: 12px;
+} */
+
+.classlabelup {
+  top: -10px;
+  background-color: #f5f2f2;
+  padding: 2px;
   font-size: 12px;
 }
 
@@ -271,8 +278,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-  .ipad-portrait {
-    
+  .form-field input:focus-visible + label {
+    display: block;
   }
 }
 
