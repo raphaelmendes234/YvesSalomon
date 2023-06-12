@@ -31,7 +31,7 @@ const formField = document.querySelectorAll(".to-hide");
 const formsArray = Array.from(formField);
 
 formsArray.map(function(element){
-    const input = element.querySelector("input[type='text']");
+    const input = element.querySelector("input");
     const label = element.querySelector("label");
 
     input.addEventListener("input", function(){
