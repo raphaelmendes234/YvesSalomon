@@ -172,6 +172,10 @@ label {
   pointer-events: none;
 }
 
+.form-field > label {
+  color:#a0a0a0;
+}
+
 .clickable {
   pointer-events: all;
 }
