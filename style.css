@@ -5,6 +5,7 @@
   background-color: #f5f2f2;
   text-decoration: none;
   -webkit-border-radius: none;
+  -webkit-appearance: none;
   appearance: none;
   border-radius: 0;
 }
@@ -104,6 +105,8 @@ form {
 }
 
 input {
+  -moz-appearance: none;
+  appearance: none;
   width: 100%;
   padding: 10px;
   border: 1px solid #D0CECE;
@@ -192,6 +195,7 @@ select {
   border: none;
   text-align: center;
   cursor: pointer;
+  font-size: 16px;
 }
 
 .form-field input:focus-visible + input{
@@ -213,6 +217,8 @@ select {
 }
 
 .to-hide-date input {
+  -moz-appearance:    none;
+  appearance:         none;
   box-sizing: border-box;
   outline: 0;
   position: relative;
@@ -228,6 +234,7 @@ select {
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
+  appearance: none;
   background: transparent;
   bottom: 0;
   color: transparent;
