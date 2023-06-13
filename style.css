@@ -202,6 +202,7 @@ select {
   border-right: 2px solid #D0CECE;
   border-bottom: 2px solid #D0CECE;
   transform: rotate(45deg);
+  pointer-events: none;
 }
 
 .button {
